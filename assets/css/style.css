@@ -130,7 +130,7 @@ h1 {
 }
 
 @media only screen and (max-width: 767px) {
-  input.notify-me {
+  input.notify-android {
     color: #fff;
     padding: 7.5px 5px !important;
     font-size: 11px;
@@ -142,7 +142,7 @@ h1 {
   }
 }
 
-input.notify-me {
+input.notify-android {
   color: #fff;
   padding: 7.5px 20px;
   font-size: 12px;
@@ -153,15 +153,50 @@ input.notify-me {
   transition: all 0.5s ease-in-out;
 }
 
-input.form-control.notify-me {
+input.form-control.notify-android {
   background: transparent;
   color: #fff;
   border-radius: 0;
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-input.notify-me:hover {
+input.notify-android:hover {
   border-color: #e6e6e6;
+}
+
+@media only screen and (max-width: 767px) {
+  input.notify-me {
+    color: #fff;
+    padding: 7.5px 5px !important;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #787878;
+    border-radius: 0;
+    border-color: #787878;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+input.notify-me {
+  color: #fff;
+  padding: 7.5px 30px !important;
+  font-size: 11px;
+  font-weight: 500;
+  background-color: #787878;
+  border-radius: 0;
+  border-color: #787878;
+  transition: all 0.5s ease-in-out;
+}
+
+input.form-control.notify-me {
+background: transparent;
+color: #fff;
+border-radius: 0;
+border-color: rgba(255, 255, 255, 0.5);
+}
+
+input.notify-me:hover {
+border-color: #e6e6e6;
 }
 
 .subscribe p {
